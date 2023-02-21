@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+
+<body>
+
+<div th:fragment="mySideBar">
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a>Mypage</a>
+      </li>
+      <li>
+        <a th:href="@{/board/myBoard}">나의즐겨찾기</a>
+      </li>
+      <li>
+        <a th:href="@{/board/myOldBoard}">나의투자정보</a>
+      </li>
+      <li>
+        <a th:href="@{/account/myinfo}">회원정보수정</a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
