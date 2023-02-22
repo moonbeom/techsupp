@@ -14,10 +14,10 @@ public class MyPageController {
         return mav;
     }
 
-
-    @GetMapping("/")
-    public void asdf() {
-        System.out.println("test commit");
-    }
+//
+//    @GetMapping("/")
+//    public void asdf() {
+//        System.out.println("test commit");
+//    }
 
 }
