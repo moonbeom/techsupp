@@ -15,9 +15,9 @@ public class MyPageController {
     }
 
 
-//    @GetMapping("/")
-//    public void asdf() {
-//        System.out.println("test commit");
-//    }
+    @GetMapping("/")
+    public void asdf() {
+        System.out.println("test commit");
+    }
 
 }
